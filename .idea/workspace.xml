@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5680ab26-3989-461c-8f2b-3d0db47fb231" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/image-proj-rotslider/image-proj-rotslider.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/image-proj-rotslider/image-proj-rotslider.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/image-proj-rotslider/image-proj-rotslider.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/image-proj-rotslider/image-proj-rotslider.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/projection/projection.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/projection/projection.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/projection/projection.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/projection/projection.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/rotslider/rotslider.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/rotslider/rotslider.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/rotslider/rotslider.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/rotslider/rotslider.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/assets/image_rotated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backprojection-simulator/src/assets/rabbit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backprojection-simulator/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/backprojection-simulator/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backprojection-simulator/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backprojection-simulator/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backprojection-simulator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backprojection-simulator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backprojection-simulator/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backprojection-simulator/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backprojection-simulator/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backprojection-simulator/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backprojection-simulator/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backprojection-simulator/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backprojection-simulator/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/backprojection-simulator/src/styles.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backprojection-simulator" />
+  </component>
+  <component name="ProjectId" id="1aUroCV65K7sOd59zdalhwMtV1l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backprojection-simulator/src/assets" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backprojection-simulator/src/assets" />
+      <recent name="$PROJECT_DIR$/backprojection-simulator/src/app/image-proj-rotslider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="image" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="backprojection_simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/backprojection_simulator/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5680ab26-3989-461c-8f2b-3d0db47fb231" name="Default Changelist" comment="" />
+      <created>1586801185996</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586801185996</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/image.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
