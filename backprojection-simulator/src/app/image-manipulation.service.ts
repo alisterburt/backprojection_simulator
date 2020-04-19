@@ -8,7 +8,9 @@ import { catchError, retry } from 'rxjs/operators';
 })
 export class ImageManipulationService {
   constructor(private http: HttpClient) { }
-  private service: ImageManipulationService
+  private service: ImageManipulationService;
+  private rotateImageURL: string;
+  private options: HttpParams;
 
   rotateImage(theta : string): string {
     this.rotateImageURL = '127.0.0.1:5000/api/rotate_image';
