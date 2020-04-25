@@ -1,14 +1,15 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpParams} from '@angular/common/http';
+import {BackendService} from "./backend.service";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ImageManipulationService {
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient, private backendService: BackendService) {
   }
 
-  private readonly rotateImageURL: string = "http://127.0.0.1:5000/api/rotate_image";
+  private readonly rotateImageURL: string = "api/rotate_image";
 
   rotateImage(theta: number): string {
     let options = theta ?
@@ -17,7 +18,7 @@ export class ImageManipulationService {
           .set('theta', String(theta))
       } :
       {};
-    this.http.get(this.rotateImageURL, options).subscribe((res) => {
+    this.http.get(this.backendService.getBackendUrl(this.rotateImageURL), options).subscribe((res) => {
       console.log(res);
     })
     return 'hello';

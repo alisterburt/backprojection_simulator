@@ -5,7 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ImageProjRotsliderComponent } from './image-proj-rotslider/image-proj-rotslider.component';
-import { RotsliderComponent } from './rotslider/rotslider.component';
 import { ProjectionComponent } from './projection/projection.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ImageManipulationService } from './image-manipulation.service';
@@ -14,7 +13,6 @@ import { ImageManipulationService } from './image-manipulation.service';
   declarations: [
     AppComponent,
     ImageProjRotsliderComponent,
-    RotsliderComponent,
     ProjectionComponent
   ],
   imports: [
