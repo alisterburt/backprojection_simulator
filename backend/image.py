@@ -51,6 +51,6 @@ def preprocess(filename):
     return image
 
 
-from backprojection import ramp_filter_500
+from backend.backprojection import ramp_filter_500
 
 filt = ramp_filter_500()

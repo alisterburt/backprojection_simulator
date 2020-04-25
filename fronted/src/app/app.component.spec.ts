@@ -23,13 +23,13 @@ describe('AppComponent', () => {
   it(`should have as title 'backprojection-simulator'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('backprojection-simulator');
+    expect(app.title).toEqual('fronted');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('backprojection-simulator app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('fronted app is running!');
   });
 });
