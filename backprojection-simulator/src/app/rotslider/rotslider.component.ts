@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { MatSliderModule } from '@angular/material/slider';
+import {Component, Input, OnInit} from '@angular/core';
+import {MatSliderChange} from '@angular/material/slider';
 import { ImageManipulationService } from '../image-manipulation.service';
 
 @Component({
@@ -8,14 +8,15 @@ import { ImageManipulationService } from '../image-manipulation.service';
   styleUrls: ['./rotslider.component.css']
 })
 export class RotsliderComponent implements OnInit {
-  private value = 0;
+  public value = 0;
+
   private service: ImageManipulationService
 
   onInputChange(event: MatSliderChange) {
     console.log("Slider value changed to:")
     console.log(event.value)
     this.value = event.value
-    this.service.rotateImage(this.value.toString())
+    this.service.rotateImage(this.value)
 
   }
 

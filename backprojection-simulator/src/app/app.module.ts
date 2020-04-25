@@ -22,10 +22,9 @@ import { ImageManipulationService } from './image-manipulation.service';
     AppRoutingModule,
     MatSliderModule,
     BrowserAnimationsModule,
-    HttpClientModule,
-    ImageManipulationService
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ImageManipulationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
