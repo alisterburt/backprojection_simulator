@@ -9,8 +9,6 @@ import {ImageManipulationService} from "../image-manipulation.service";
   styleUrls: ['./image-proj-rotslider.component.css']
 })
 export class ImageProjRotsliderComponent  {
-
-
   private readonly rotatedFileName = "rotated.png";
   public value = 0;
 

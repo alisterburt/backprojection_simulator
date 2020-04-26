@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ImageManipulationService} from "../image-manipulation.service";
 
 @Component({
   selector: 'app-projection',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectionComponent implements OnInit {
 
-  constructor() { }
+  constructor(private imgService : ImageManipulationService) { }
+
+
 
   ngOnInit(): void {
   }

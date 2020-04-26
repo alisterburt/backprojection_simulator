@@ -6,11 +6,13 @@ import {BackendService} from "./backend.service";
   providedIn: 'root'
 })
 export class ImageManipulationService {
-  constructor(private http: HttpClient, private backendService: BackendService) {
-  }
+
+  constructor(private http: HttpClient, private backendService: BackendService) { }
 
   private readonly rotateImageURL: string = "api/rotate_image";
   private readonly getProjectionURL: string = "api/get_projection";
+
+
   rotateImage(theta: number): string {
     let options = theta ?
       {
