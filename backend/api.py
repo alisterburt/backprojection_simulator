@@ -61,6 +61,15 @@ def api_rotate_image():
     imsave(filename, image_rotated)
     print('hoonza')
     print('boonza')
+    print("qsdfqsdfqsdfqsdfqsdfsd")
+    print("qsdfqsdfqsdfqsdfqsdfsd")
+    print("qsdfqsdfqsdfqsdfqsdfsd")
+    print("qsdfqsdfqsdfqsdfqsdfsd")
+    print("qsdfqsdfqsdfqsdfqsdfsd")
+    print("qsdfqsdfqsdfqsdfqsdfsd")
+    print("qsdfqsdfqsdfqsdfqsdfsd")
+    print("qsdfqsdfqsdfqsdfqsdfsd")
+    print("qsdfqsdfqsdfqsdfqsdfsd")
     return jsonify(filename)
 
 
