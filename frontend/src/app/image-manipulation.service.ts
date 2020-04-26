@@ -10,7 +10,7 @@ export class ImageManipulationService {
   }
 
   private readonly rotateImageURL: string = "api/rotate_image";
-
+  private readonly getProjectionURL: string = "api/get_projection";
   rotateImage(theta: number): string {
     let options = theta ?
       {
@@ -21,7 +21,20 @@ export class ImageManipulationService {
     this.http.get(this.backendService.getBackendUrl(this.rotateImageURL), options).subscribe((res) => {
       console.log(res);
     })
-    return 'hello';
+    return 'ok';
+  }
+
+  getProjection(theta: number): string {
+    let options = theta ?
+      {
+        params: new HttpParams()
+          .set('theta', String(theta))
+      } :
+      {};
+    this.http.get(this.backendService.getBackendUrl(this.getProjectionURL), options).subscribe((res) => {
+      console.log(res);
+    })
+    return 'ok';
   }
 
 }
