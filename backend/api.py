@@ -59,6 +59,8 @@ def api_rotate_image():
     image_rotated = rotate(image, theta)
     filename = resource_path + '/image_rotated.png'
     imsave(filename, image_rotated)
+    print('hoonza')
+    print('boonza')
     return jsonify(filename)
 
 
