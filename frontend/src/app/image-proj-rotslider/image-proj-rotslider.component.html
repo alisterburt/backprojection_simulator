@@ -1,0 +1,11 @@
+<app-projection></app-projection>
+<mat-slider (input)="onInputChange($event)"
+            min="-180"
+            max="180"
+            step="1"
+            value="0"
+            tickInterval="60"></mat-slider>
+<p>slider value: {{this.value}}</p>
+<div>
+  <img [src]="image" alt="Rotated Image Alt Text">
+</div>
