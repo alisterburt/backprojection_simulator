@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "backprojection-simulator"
+  "defaultProject": "backprojection-simulator",
+  "cli": {
+    "analytics": "333f509f-af3f-4e02-b2eb-daea1ec3bfad"
+  }
 }
