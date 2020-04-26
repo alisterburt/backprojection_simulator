@@ -20,12 +20,14 @@ resource_path = os.path.join(app.root_path, 'static')
 image = preprocess(resource_path + '/rabbit.png')
 
 
+
 def jsonify_numpy(numpy_array):
     array_list = numpy_array.tolist()
     json = jsonify(array_list)
     return json
 
 
+<<<<<<< HEAD:backend/api.py
 books = [
     {'id': 0,
      'title': 'A Fire Upon the Deep',
@@ -45,6 +47,8 @@ books = [
 ]
 
 
+=======
+>>>>>>> master:api.py
 @app.route('/', methods=['GET'])
 def home():
     return "<h1>Backprojection gimpulator</h1><p>This site is a prototype API for the simulation of backprojection of images</p>"
