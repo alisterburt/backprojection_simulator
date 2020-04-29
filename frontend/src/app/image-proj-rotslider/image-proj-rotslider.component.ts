@@ -19,9 +19,9 @@ export class ImageProjRotsliderComponent  {
   }
 
   onInputChange(event: MatSliderChange) {
-    console.log(`Slider value changed to: ${event.value}`)
-    this.value = event.value
-    this.imgService.rotateImage(this.value)
+    console.log(`Slider value changed to: ${event.value}`);
+    this.value = event.value;
+    this.imgService.rotateImage(this.value);
     this.image = this.generateRandomUrl();
   }
 
