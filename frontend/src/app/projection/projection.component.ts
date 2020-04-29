@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import {ImageManipulationService} from "../image-manipulation.service";
 
 @Component({
@@ -8,8 +8,9 @@ import {ImageManipulationService} from "../image-manipulation.service";
 })
 export class ProjectionComponent implements OnInit {
 
-  constructor(private imgService : ImageManipulationService) { }
+  constructor(private imgService: ImageManipulationService) { }
 
+  @Input('theta') theta: number;
 
 
   ngOnInit(): void {
