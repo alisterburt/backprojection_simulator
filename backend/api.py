@@ -2,6 +2,7 @@ import io
 import os
 
 import flask
+from flask_cors import CORS
 from PIL import Image
 from flask import request, jsonify
 from flask import send_file
@@ -14,6 +15,7 @@ from backend.backprojection import get_single_projection
 from backend.image import preprocess
 
 app = flask.Flask(__name__)
+CORS(app)
 app.config['DEBUG'] = True
 
 resource_path = os.path.join(app.root_path, 'static')

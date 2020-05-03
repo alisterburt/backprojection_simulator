@@ -20,9 +20,10 @@ export class ImageManipulationService {
           .set('theta', String(theta))
       } :
       {};
-    this.http.get(this.backendService.getBackendUrl(this.rotateImageURL), options).subscribe((res) => {
-      console.log(res);
-    })
+    this.http.get(this.backendService.getBackendUrl(this.rotateImageURL), options).subscribe((projection) => {
+      console.log('projection data received');
+      return projection;
+    });
     return 'ok';
   }
 

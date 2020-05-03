@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import {Component, OnInit, Input, SimpleChanges, OnChanges} from '@angular/core';
 import {ImageManipulationService} from '../image-manipulation.service';
 
 @Component({
@@ -6,15 +6,19 @@ import {ImageManipulationService} from '../image-manipulation.service';
   templateUrl: './projection.component.html',
   styleUrls: ['./projection.component.css']
 })
-export class ProjectionComponent {
+export class ProjectionComponent implements OnChanges {
 
   constructor(private imgService: ImageManipulationService) { }
 
   @Input('theta') theta: number;
-  private projection;
+  public projection;
 
   updateProjection() {
     this.projection = this.imgService.getProjection(this.theta);
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    this.updateProjection();
   }
 
 }
